@@ -1,12 +1,11 @@
 import Header from '@/components/custom/Header'
-import { UserButton } from '@clerk/clerk-react'
-import React from 'react'
+import Dashboard from '@/dashboard'
 
 const Home = () => {
   return (
     <div>
       <Header />
-      
+      <Dashboard />
     </div>
   )
 }
